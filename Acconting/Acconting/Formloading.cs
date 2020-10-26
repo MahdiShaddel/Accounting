@@ -23,9 +23,15 @@ namespace Acconting
             if (LoadingProgressbar.Value==100)
             {
                 timer1.Stop();
+                this.Hide();
                 new FormMain().ShowDialog();
                 this.Close();
             }
+        }
+
+        private void Formloading_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

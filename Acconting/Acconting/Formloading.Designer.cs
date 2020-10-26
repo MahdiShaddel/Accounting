@@ -100,6 +100,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Formloading";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Formloading_Load);
             this.ResumeLayout(false);
 
         }
