@@ -24,7 +24,7 @@ namespace Acconting
             {
                 timer1.Stop();
                 this.Hide();
-                new FormMain().ShowDialog();
+                new FormLogin().ShowDialog();
                 this.Close();
             }
         }

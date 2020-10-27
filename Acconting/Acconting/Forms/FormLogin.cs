@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Acconting
 {
-    public partial class FormMain : Form
+    public partial class FormLogin : Form
     {
-        public FormMain()
+        public FormLogin()
         {
             InitializeComponent();
         }
@@ -41,6 +41,11 @@ namespace Acconting
         private void BtnMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
